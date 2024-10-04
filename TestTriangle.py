@@ -3,8 +3,7 @@
 Updated Jan 21, 2018
 The primary goal of this file is to demonstrate a simple unittest implementation
 
-@author: jrr
-@author: rk
+@author: Gautam Vinod Ahuja - 20022514
 """
 
 import unittest
@@ -35,7 +34,7 @@ class TestTriangles(unittest.TestCase):
     def testIsoscelesTriangleB(self): 
         self.assertEqual(classifyTriangle(8, 5, 5), 'Isosceles', '8,5,5 should be Isosceles')
 
-    def testInvalidTriangleA(self): 
+    def testNotATriangle(self): 
         self.assertEqual(classifyTriangle(1, 10, 12), 'NotATriangle', '1,10,12 should be an invalid triangle')
 
     def testInvalidTriangleB(self): 
