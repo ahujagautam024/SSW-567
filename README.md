@@ -33,4 +33,4 @@ The project uses Python's `unittest` framework to test the functionality of the 
 3. Run the following command to execute the tests:
 
    ```bash
-   python -m unittest test_triangle.py
+   python -m unittest TestTriangle
