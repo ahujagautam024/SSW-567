@@ -4,10 +4,11 @@ This project contains a Python program to classify triangles based on their side
 
 ## Project Structure
 
-The repository contains two primary files:
+The repository contains the following primary files:
 
-1. **`Triangle.py`**: This file contains the `classifyTriangle` function, which classifies triangles based on the input side lengths.
-2. **`TestTriangle.py`**: This file contains the test cases for the `classifyTriangle` function, using the `unittest` framework.
+1. **`Hw-02a/Triangle.py`**: This file contains the `classifyTriangle` function, which classifies triangles based on the input side lengths.
+2. **`Hw-02a/TestTriangle.py`**: This file contains the test cases for the `classifyTriangle` function, using the `unittest` framework.
+3. **`.circleci/config.yml`**: CircleCI configuration file, located at the root of the repository, that defines the build and test pipeline for continuous integration.
 
 ## Function Description
 
@@ -24,13 +25,13 @@ The function takes three integer inputs representing the lengths of the sides of
 
 ## Testing
 
-The project uses Python's `unittest` framework to test the functionality of the `classifyTriangle` function. The test cases are included in the `test_triangle.py` file.
+The project uses Python's `unittest` framework to test the functionality of the `classifyTriangle` function. The test cases are included in the `Hw-02a/TestTriangle.py` file.
 
 ### How to Run Tests
 
-1. Ensure that both `Triangle.py` and `test_triangle.py` are in the same directory.
+1. Ensure that both `Hw-02a/Triangle.py` and `Hw-02a/TestTriangle.py` are in the same directory.
 2. From the command line, navigate to the project directory.
 3. Run the following command to execute the tests:
 
    ```bash
-   python -m unittest TestTriangle
+   python -m unittest Hw-02a/TestTriangle
