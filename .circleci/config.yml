@@ -22,7 +22,7 @@ jobs:
       # Run the unit tests from the Hw-02a directory
       - run:
           name: Run unit tests
-          command: python -m unittest TestTriangle.py
+          command: python -m unittest TestTriangle
 
 workflows:
   version: 2
