@@ -4,7 +4,7 @@ jobs:
   test:
     docker:
       # Use a Python image
-      - image: circleci/python:3.8  # You can change the Python version if needed
+      - image: circleci/python:3.8  # Adjust the Python version as needed
     steps:
       - checkout  # Check out the code
 
@@ -14,7 +14,12 @@ jobs:
           command: |
             python -m pip install --upgrade pip
 
-      # Run the unit tests
+      # Change directory to where the Python files are located
+      - run:
+          name: Navigate to Hw-02a
+          command: cd Hw-02a
+
+      # Run the unit tests from the Hw-02a directory
       - run:
           name: Run unit tests
           command: python -m unittest TestTriangle.py
