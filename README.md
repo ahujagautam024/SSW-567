@@ -1,4 +1,4 @@
-# Triangle Classifier
+# Triangle Classifier [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/RuQkQSfbtATvPQwW6cYotg/N8u5uuq2twHTop7143XpZS/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/RuQkQSfbtATvPQwW6cYotg/N8u5uuq2twHTop7143XpZS/tree/main)
 
 This project contains a Python program to classify triangles based on their side lengths. The program also includes a set of unit tests written using Python's `unittest` framework to verify the correctness of the classification logic.
 
